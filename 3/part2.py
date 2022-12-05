@@ -6,7 +6,7 @@ with open("input.txt") as file:
         line2 = file.readline().strip()
         line3 = file.readline().strip()
 
-        if not line2: break  # EOF
+        if not line3: break  # EOF
 
         common = list(set(line1) & set(line2) & set(line3))
         for i in common:
